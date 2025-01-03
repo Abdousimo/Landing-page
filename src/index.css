@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; 
+    padding-top: 80px;
+}
+
+a{
+  font-weight: 500;
+}
+
+a.active {
+    color: #FF881B;
+    
+}
+
+input[type="radio"] {
+    accent-color: #FF881B;
+}
+
+@keyframes floatAndShrink {
+    0% {
+      transform: translateY(0) scale(1); /* Start in the middle, original size */
+    }
+    50% {
+      transform: translateY(-50%) scale(0.7); /* Move up to 50% of the container's height, shrink */
+    }
+    100% {
+      transform: translateY(0) scale(1); /* Return to the middle, original size */
+    }
+  }
+  
+  #animation1 {
+    animation: floatAndShrink 2s ease-in-out infinite;
+    position: relative; 
+  }
+
+  #animation2 {
+    animation: moveAndScale 2s ease-in-out infinite;
+    position: relative;  
+  }
+
+
+  @keyframes moveAndScale {
+    0% {
+      transform: translateY(-50%) translateX(0) scale(1); /* Start at the left edge */
+    }
+    25% {
+      transform: translateY(-50%) translateX(50%) scale(1.2); /* Scale up in the middle-left */
+    }
+    50% {
+      transform: translateY(-50%) translateX(100%) scale(1); /* Reach the right edge */
+    }
+    75% {
+      transform: translateY(-50%) translateX(50%) scale(0.8); /* Scale down in the middle-right */
+    }
+    100% {
+      transform: translateY(-50%) translateX(0) scale(1); /* Return to the left edge */
+    }
+  }
+
+
+
+  
