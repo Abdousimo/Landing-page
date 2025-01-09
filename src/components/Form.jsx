@@ -54,7 +54,7 @@ const Form = () => {
                       </span>
                       {t('Form.bottom.three.title')}
                     </label>
-                    <input type='date' placeholder={t('Form.bottom.three.placeholder')} className='border-b-primary border-b-2 pb-2 focus:outline-none text-gray'/>
+                    <input type='date' placeholder={t('Form.bottom.three.placeholder')} className='border-b-primary border-b-2 pb-2 focus:outline-none text-gray w-full lg:w-auto'/>
                   </div>
               </div>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mt-10'>
