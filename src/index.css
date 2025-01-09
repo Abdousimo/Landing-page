@@ -21,6 +21,10 @@ input[type="radio"] {
     accent-color: #FF881B;
 }
 
+input {
+  background-color: none;
+}
+
 @keyframes floatAndShrink {
     0% {
       transform: translateY(0) scale(1); /* Start in the middle, original size */
