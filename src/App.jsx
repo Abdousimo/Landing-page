@@ -7,7 +7,7 @@ import Testimonials from './sections/Testimonials'
 import HowItWork from './sections/HowItWork'
 import Sponsors from './sections/Sponsors'
 import Footer from './sections/Footer'
-import Navbar from './sections/Navbar'
+import Navbar from './components/Navbar'
 
 
 

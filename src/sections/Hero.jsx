@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import Form from './Form'
+import Form from '../components/Form'
 
 const Hero = () => {
   const { t } = useTranslation()

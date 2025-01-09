@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import Question from './Question'
+import Question from '../components/Question'
 
 const FAQS = () => {
     const { t } = useTranslation()

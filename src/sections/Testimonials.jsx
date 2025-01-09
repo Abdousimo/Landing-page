@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import ClientCard from './ClientCard'
+import ClientCard from '../components/ClientCard'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination,FreeMode } from 'swiper/modules';
 import 'swiper/css';
