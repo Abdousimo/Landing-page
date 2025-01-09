@@ -74,7 +74,7 @@ const Form = () => {
             </div>
           </div>
           <div className='relative flex justify-center'>
-          <span className='absolute left-10 md:left-20 lg:left-32 top-2 bg-primary p-2 rounded-full flex items-center justify-center'>
+          <span className='absolute left-2 md:left-12 lg:left-32 top-2 bg-primary p-2 rounded-full flex items-center justify-center'>
           <img src='/map-vec.png' className='w-4 h-4' id='animation1'/>
         </span>
             <button type='submit' className='bg-primary text-white font-bold py-3 px-10 rounded-lg'>{t('Form.bottom.submit')}</button>
