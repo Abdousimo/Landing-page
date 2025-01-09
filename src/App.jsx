@@ -1,16 +1,13 @@
 import React,{useState,useEffect} from 'react'
 import { useTranslation } from 'react-i18next'
-import Hero from './components/Hero'
-import About from './components/About'
-import FAQS from './components/FAQS'
-import Testimonials from './components/Testimonials'
-import HowItWork from './components/HowItWork'
-import Sponsors from './components/Sponsors'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-
-
-
+import Hero from './sections/Hero'
+import About from './sections/About'
+import FAQS from './sections/FAQS'
+import Testimonials from './sections/Testimonials'
+import HowItWork from './sections/HowItWork'
+import Sponsors from './sections/Sponsors'
+import Footer from './sections/Footer'
+import Navbar from './sections/Navbar'
 
 
 
