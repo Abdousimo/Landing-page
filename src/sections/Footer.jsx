@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 const Footer = () => {
   const { t } = useTranslation()
   return (
-    <footer id='contact' className='section container py-8 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-4 flex-wrap'>
+    <footer id='contact' className='section container py-8 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4 flex-wrap'>
         <h1 className='text-primary text-3xl font-bold'>Bag&Go</h1>
         <div className=''>
             <p className='font-bold'>{t('Footer.one.title')}</p>
